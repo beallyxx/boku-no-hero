@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo de Boku no Hero Academia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .character-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+        }
+        .character-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .character-card h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Universo de Boku no Hero Academia</h1>
+    </header>
+    <nav>
+        <a href="#personagens">Personagens</a>
+        <a href="#sobre">Sobre</a>
+    </nav>
+    <div class="container">
+        <section id="personagens">
+            <h2>Personagens</h2>
+            <div class="character-card">
+                <img src="link-para-imagem-do-personagem" alt="Nome do Personagem">
+                <h2>Nome do Personagem</h2>
+                <p><strong>Individualidade:</strong> Descrição da individualidade.</p>
+                <p><strong>Descrição:</strong> Informações sobre o personagem.</p>
+            </div>
+            <!-- Repita o bloco acima para cada personagem -->
+        </section>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Este site é dedicado a explorar o universo de Boku no Hero Academia e seus personagens. Aqui você encontrará informações detalhadas sobre cada herói e vilão, suas individualidades, e seu papel na série.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Universo de Boku no Hero Academia</p>
+    </footer>
+</body>
+</html>
